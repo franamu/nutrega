@@ -1,0 +1,395 @@
+[18-May-2018 15:58:27 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[18-May-2018 15:58:27 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[18-May-2018 15:58:27 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[18-May-2018 15:58:27 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[18-May-2018 15:58:27 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[18-May-2018 15:58:27 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[18-May-2018 15:58:27 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[18-May-2018 15:58:27 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[18-May-2018 15:58:27 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[18-May-2018 15:58:27 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[18-May-2018 15:58:33 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: ususarios in /home2/ammucom/public_html/backend/ajax/tablaUsuarios.ajax.php on line 29
+[18-May-2018 15:58:33 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: ususarios in /home2/ammucom/public_html/backend/ajax/tablaUsuarios.ajax.php on line 29
+[18-May-2018 15:58:33 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: ususarios in /home2/ammucom/public_html/backend/ajax/tablaUsuarios.ajax.php on line 29
+[21-May-2018 16:27:02 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[21-May-2018 16:27:02 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[21-May-2018 16:27:02 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[21-May-2018 16:27:02 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[21-May-2018 16:27:02 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[21-May-2018 16:27:02 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[21-May-2018 16:27:02 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[21-May-2018 16:27:02 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[21-May-2018 16:27:02 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[21-May-2018 16:27:02 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[21-May-2018 16:32:35 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[21-May-2018 16:32:35 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[21-May-2018 16:32:35 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[21-May-2018 16:32:35 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[21-May-2018 16:32:35 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[21-May-2018 16:32:35 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[21-May-2018 16:32:35 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[21-May-2018 16:32:35 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[21-May-2018 16:32:35 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[21-May-2018 16:32:35 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[22-May-2018 23:40:27 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: ususarios in /home2/ammucom/public_html/backend/ajax/tablaUsuarios.ajax.php on line 29
+[22-May-2018 23:40:27 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: ususarios in /home2/ammucom/public_html/backend/ajax/tablaUsuarios.ajax.php on line 29
+[22-May-2018 23:40:27 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: ususarios in /home2/ammucom/public_html/backend/ajax/tablaUsuarios.ajax.php on line 29
+[23-May-2018 12:05:07 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[23-May-2018 12:05:08 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[23-May-2018 12:05:08 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[23-May-2018 12:05:08 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[23-May-2018 12:05:08 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[23-May-2018 12:05:08 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[23-May-2018 12:05:08 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[23-May-2018 12:05:08 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[23-May-2018 12:05:08 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[23-May-2018 12:05:08 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[26-May-2018 02:10:00 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: ususarios in /home2/ammucom/public_html/backend/ajax/tablaUsuarios.ajax.php on line 29
+[26-May-2018 02:10:00 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: ususarios in /home2/ammucom/public_html/backend/ajax/tablaUsuarios.ajax.php on line 29
+[26-May-2018 02:10:00 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: ususarios in /home2/ammucom/public_html/backend/ajax/tablaUsuarios.ajax.php on line 29
+[30-May-2018 17:51:12 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[30-May-2018 17:51:12 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[30-May-2018 17:51:12 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[30-May-2018 17:51:12 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[30-May-2018 17:51:12 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[30-May-2018 17:51:12 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[30-May-2018 17:51:12 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[30-May-2018 17:51:12 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[30-May-2018 17:51:12 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[30-May-2018 17:51:12 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[30-May-2018 18:05:07 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: ususarios in /home2/ammucom/public_html/backend/ajax/tablaUsuarios.ajax.php on line 29
+[30-May-2018 18:05:07 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: ususarios in /home2/ammucom/public_html/backend/ajax/tablaUsuarios.ajax.php on line 29
+[30-May-2018 18:05:07 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: ususarios in /home2/ammucom/public_html/backend/ajax/tablaUsuarios.ajax.php on line 29
+[30-May-2018 18:50:39 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: ususarios in /home2/ammucom/public_html/backend/ajax/tablaUsuarios.ajax.php on line 29
+[30-May-2018 18:50:39 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: ususarios in /home2/ammucom/public_html/backend/ajax/tablaUsuarios.ajax.php on line 29
+[30-May-2018 18:50:39 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: ususarios in /home2/ammucom/public_html/backend/ajax/tablaUsuarios.ajax.php on line 29
+[30-May-2018 18:54:44 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[30-May-2018 18:54:44 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[30-May-2018 18:54:44 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[30-May-2018 18:54:44 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[30-May-2018 18:54:44 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[30-May-2018 18:54:44 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[30-May-2018 18:54:44 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[30-May-2018 18:54:44 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[30-May-2018 18:54:44 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[30-May-2018 18:54:44 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[01-Jun-2018 15:40:26 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: stock in /home2/ammucom/public_html/backend/ajax/productos.ajax.php on line 322
+[01-Jun-2018 15:41:03 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: stock in /home2/ammucom/public_html/backend/ajax/productos.ajax.php on line 322
+[01-Jun-2018 15:45:05 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: stock in /home2/ammucom/public_html/backend/ajax/productos.ajax.php on line 250
+[01-Jun-2018 15:45:06 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'stock' cannot be null in /home2/ammucom/public_html/backend/modelos/productos.modelo.php:162
+Stack trace:
+#0 /home2/ammucom/public_html/backend/modelos/productos.modelo.php(162): PDOStatement->execute()
+#1 /home2/ammucom/public_html/backend/controladores/productos.controlador.php(450): ModeloProductos::mdlIngresarProducto('productos', Array)
+#2 /home2/ammucom/public_html/backend/ajax/productos.ajax.php(131): ControladorProductos::ctrCrearProducto(Array)
+#3 /home2/ammucom/public_html/backend/ajax/productos.ajax.php(288): AjaxProductos->ajaxCrearProducto()
+#4 {main}
+  thrown in /home2/ammucom/public_html/backend/modelos/productos.modelo.php on line 162
+[01-Jun-2018 15:46:40 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: stock in /home2/ammucom/public_html/backend/ajax/productos.ajax.php on line 250
+[01-Jun-2018 15:46:40 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'stock' cannot be null in /home2/ammucom/public_html/backend/modelos/productos.modelo.php:162
+Stack trace:
+#0 /home2/ammucom/public_html/backend/modelos/productos.modelo.php(162): PDOStatement->execute()
+#1 /home2/ammucom/public_html/backend/controladores/productos.controlador.php(450): ModeloProductos::mdlIngresarProducto('productos', Array)
+#2 /home2/ammucom/public_html/backend/ajax/productos.ajax.php(131): ControladorProductos::ctrCrearProducto(Array)
+#3 /home2/ammucom/public_html/backend/ajax/productos.ajax.php(288): AjaxProductos->ajaxCrearProducto()
+#4 {main}
+  thrown in /home2/ammucom/public_html/backend/modelos/productos.modelo.php on line 162
+[01-Jun-2018 15:46:52 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: stock in /home2/ammucom/public_html/backend/ajax/productos.ajax.php on line 250
+[01-Jun-2018 15:46:53 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: stock in /home2/ammucom/public_html/backend/ajax/productos.ajax.php on line 250
+[01-Jun-2018 15:46:53 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'stock' cannot be null in /home2/ammucom/public_html/backend/modelos/productos.modelo.php:162
+Stack trace:
+#0 /home2/ammucom/public_html/backend/modelos/productos.modelo.php(162): PDOStatement->execute()
+#1 /home2/ammucom/public_html/backend/controladores/productos.controlador.php(450): ModeloProductos::mdlIngresarProducto('productos', Array)
+#2 /home2/ammucom/public_html/backend/ajax/productos.ajax.php(131): ControladorProductos::ctrCrearProducto(Array)
+#3 /home2/ammucom/public_html/backend/ajax/productos.ajax.php(288): AjaxProductos->ajaxCrearProducto()
+#4 {main}
+  thrown in /home2/ammucom/public_html/backend/modelos/productos.modelo.php on line 162
+[01-Jun-2018 15:46:53 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: stock in /home2/ammucom/public_html/backend/ajax/productos.ajax.php on line 250
+[01-Jun-2018 15:46:53 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'stock' cannot be null in /home2/ammucom/public_html/backend/modelos/productos.modelo.php:162
+Stack trace:
+#0 /home2/ammucom/public_html/backend/modelos/productos.modelo.php(162): PDOStatement->execute()
+#1 /home2/ammucom/public_html/backend/controladores/productos.controlador.php(450): ModeloProductos::mdlIngresarProducto('productos', Array)
+#2 /home2/ammucom/public_html/backend/ajax/productos.ajax.php(131): ControladorProductos::ctrCrearProducto(Array)
+#3 /home2/ammucom/public_html/backend/ajax/productos.ajax.php(288): AjaxProductos->ajaxCrearProducto()
+#4 {main}
+  thrown in /home2/ammucom/public_html/backend/modelos/productos.modelo.php on line 162
+[01-Jun-2018 15:46:53 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'stock' cannot be null in /home2/ammucom/public_html/backend/modelos/productos.modelo.php:162
+Stack trace:
+#0 /home2/ammucom/public_html/backend/modelos/productos.modelo.php(162): PDOStatement->execute()
+#1 /home2/ammucom/public_html/backend/controladores/productos.controlador.php(450): ModeloProductos::mdlIngresarProducto('productos', Array)
+#2 /home2/ammucom/public_html/backend/ajax/productos.ajax.php(131): ControladorProductos::ctrCrearProducto(Array)
+#3 /home2/ammucom/public_html/backend/ajax/productos.ajax.php(288): AjaxProductos->ajaxCrearProducto()
+#4 {main}
+  thrown in /home2/ammucom/public_html/backend/modelos/productos.modelo.php on line 162
+[01-Jun-2018 15:46:53 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: stock in /home2/ammucom/public_html/backend/ajax/productos.ajax.php on line 250
+[01-Jun-2018 15:46:54 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: stock in /home2/ammucom/public_html/backend/ajax/productos.ajax.php on line 250
+[01-Jun-2018 15:46:54 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: stock in /home2/ammucom/public_html/backend/ajax/productos.ajax.php on line 250
+[01-Jun-2018 15:46:54 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: stock in /home2/ammucom/public_html/backend/ajax/productos.ajax.php on line 250
+[01-Jun-2018 15:46:54 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'stock' cannot be null in /home2/ammucom/public_html/backend/modelos/productos.modelo.php:162
+Stack trace:
+#0 /home2/ammucom/public_html/backend/modelos/productos.modelo.php(162): PDOStatement->execute()
+#1 /home2/ammucom/public_html/backend/controladores/productos.controlador.php(450): ModeloProductos::mdlIngresarProducto('productos', Array)
+#2 /home2/ammucom/public_html/backend/ajax/productos.ajax.php(131): ControladorProductos::ctrCrearProducto(Array)
+#3 /home2/ammucom/public_html/backend/ajax/productos.ajax.php(288): AjaxProductos->ajaxCrearProducto()
+#4 {main}
+  thrown in /home2/ammucom/public_html/backend/modelos/productos.modelo.php on line 162
+[01-Jun-2018 15:46:54 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'stock' cannot be null in /home2/ammucom/public_html/backend/modelos/productos.modelo.php:162
+Stack trace:
+#0 /home2/ammucom/public_html/backend/modelos/productos.modelo.php(162): PDOStatement->execute()
+#1 /home2/ammucom/public_html/backend/controladores/productos.controlador.php(450): ModeloProductos::mdlIngresarProducto('productos', Array)
+#2 /home2/ammucom/public_html/backend/ajax/productos.ajax.php(131): ControladorProductos::ctrCrearProducto(Array)
+#3 /home2/ammucom/public_html/backend/ajax/productos.ajax.php(288): AjaxProductos->ajaxCrearProducto()
+#4 {main}
+  thrown in /home2/ammucom/public_html/backend/modelos/productos.modelo.php on line 162
+[01-Jun-2018 15:46:54 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'stock' cannot be null in /home2/ammucom/public_html/backend/modelos/productos.modelo.php:162
+Stack trace:
+#0 /home2/ammucom/public_html/backend/modelos/productos.modelo.php(162): PDOStatement->execute()
+#1 /home2/ammucom/public_html/backend/controladores/productos.controlador.php(450): ModeloProductos::mdlIngresarProducto('productos', Array)
+#2 /home2/ammucom/public_html/backend/ajax/productos.ajax.php(131): ControladorProductos::ctrCrearProducto(Array)
+#3 /home2/ammucom/public_html/backend/ajax/productos.ajax.php(288): AjaxProductos->ajaxCrearProducto()
+#4 {main}
+  thrown in /home2/ammucom/public_html/backend/modelos/productos.modelo.php on line 162
+[01-Jun-2018 15:46:54 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'stock' cannot be null in /home2/ammucom/public_html/backend/modelos/productos.modelo.php:162
+Stack trace:
+#0 /home2/ammucom/public_html/backend/modelos/productos.modelo.php(162): PDOStatement->execute()
+#1 /home2/ammucom/public_html/backend/controladores/productos.controlador.php(450): ModeloProductos::mdlIngresarProducto('productos', Array)
+#2 /home2/ammucom/public_html/backend/ajax/productos.ajax.php(131): ControladorProductos::ctrCrearProducto(Array)
+#3 /home2/ammucom/public_html/backend/ajax/productos.ajax.php(288): AjaxProductos->ajaxCrearProducto()
+#4 {main}
+  thrown in /home2/ammucom/public_html/backend/modelos/productos.modelo.php on line 162
+[01-Jun-2018 15:46:54 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: stock in /home2/ammucom/public_html/backend/ajax/productos.ajax.php on line 250
+[01-Jun-2018 15:46:55 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'stock' cannot be null in /home2/ammucom/public_html/backend/modelos/productos.modelo.php:162
+Stack trace:
+#0 /home2/ammucom/public_html/backend/modelos/productos.modelo.php(162): PDOStatement->execute()
+#1 /home2/ammucom/public_html/backend/controladores/productos.controlador.php(450): ModeloProductos::mdlIngresarProducto('productos', Array)
+#2 /home2/ammucom/public_html/backend/ajax/productos.ajax.php(131): ControladorProductos::ctrCrearProducto(Array)
+#3 /home2/ammucom/public_html/backend/ajax/productos.ajax.php(288): AjaxProductos->ajaxCrearProducto()
+#4 {main}
+  thrown in /home2/ammucom/public_html/backend/modelos/productos.modelo.php on line 162
+[01-Jun-2018 19:09:56 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[01-Jun-2018 19:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[01-Jun-2018 19:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[01-Jun-2018 19:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[01-Jun-2018 19:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[01-Jun-2018 19:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[01-Jun-2018 19:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[01-Jun-2018 19:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[01-Jun-2018 19:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[01-Jun-2018 19:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[01-Jun-2018 19:16:08 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[01-Jun-2018 19:16:08 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[01-Jun-2018 19:16:08 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[01-Jun-2018 19:16:08 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[01-Jun-2018 19:16:08 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[01-Jun-2018 19:16:08 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[01-Jun-2018 19:16:08 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[01-Jun-2018 19:16:08 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[01-Jun-2018 19:16:08 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[01-Jun-2018 19:16:08 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[01-Jun-2018 20:48:46 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: stock in /home2/ammucom/public_html/backend/ajax/productos.ajax.php on line 250
+[01-Jun-2018 20:48:46 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'stock' cannot be null in /home2/ammucom/public_html/backend/modelos/productos.modelo.php:162
+Stack trace:
+#0 /home2/ammucom/public_html/backend/modelos/productos.modelo.php(162): PDOStatement->execute()
+#1 /home2/ammucom/public_html/backend/controladores/productos.controlador.php(450): ModeloProductos::mdlIngresarProducto('productos', Array)
+#2 /home2/ammucom/public_html/backend/ajax/productos.ajax.php(131): ControladorProductos::ctrCrearProducto(Array)
+#3 /home2/ammucom/public_html/backend/ajax/productos.ajax.php(288): AjaxProductos->ajaxCrearProducto()
+#4 {main}
+  thrown in /home2/ammucom/public_html/backend/modelos/productos.modelo.php on line 162
+[01-Jun-2018 20:49:36 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: stock in /home2/ammucom/public_html/backend/ajax/productos.ajax.php on line 250
+[01-Jun-2018 20:49:36 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'stock' cannot be null in /home2/ammucom/public_html/backend/modelos/productos.modelo.php:162
+Stack trace:
+#0 /home2/ammucom/public_html/backend/modelos/productos.modelo.php(162): PDOStatement->execute()
+#1 /home2/ammucom/public_html/backend/controladores/productos.controlador.php(450): ModeloProductos::mdlIngresarProducto('productos', Array)
+#2 /home2/ammucom/public_html/backend/ajax/productos.ajax.php(131): ControladorProductos::ctrCrearProducto(Array)
+#3 /home2/ammucom/public_html/backend/ajax/productos.ajax.php(288): AjaxProductos->ajaxCrearProducto()
+#4 {main}
+  thrown in /home2/ammucom/public_html/backend/modelos/productos.modelo.php on line 162
+[01-Jun-2018 20:56:41 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: stock in /home2/ammucom/public_html/backend/ajax/productos.ajax.php on line 250
+[01-Jun-2018 20:56:41 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'stock' cannot be null in /home2/ammucom/public_html/backend/modelos/productos.modelo.php:162
+Stack trace:
+#0 /home2/ammucom/public_html/backend/modelos/productos.modelo.php(162): PDOStatement->execute()
+#1 /home2/ammucom/public_html/backend/controladores/productos.controlador.php(450): ModeloProductos::mdlIngresarProducto('productos', Array)
+#2 /home2/ammucom/public_html/backend/ajax/productos.ajax.php(131): ControladorProductos::ctrCrearProducto(Array)
+#3 /home2/ammucom/public_html/backend/ajax/productos.ajax.php(288): AjaxProductos->ajaxCrearProducto()
+#4 {main}
+  thrown in /home2/ammucom/public_html/backend/modelos/productos.modelo.php on line 162
+[02-Jun-2018 19:36:08 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[02-Jun-2018 19:36:08 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[02-Jun-2018 19:36:08 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[02-Jun-2018 19:36:08 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[02-Jun-2018 19:36:08 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[02-Jun-2018 19:36:08 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[02-Jun-2018 19:36:08 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[02-Jun-2018 19:36:08 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[02-Jun-2018 19:36:08 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[02-Jun-2018 19:36:08 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[02-Jun-2018 19:41:00 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: ususarios in /home2/ammucom/public_html/backend/ajax/tablaUsuarios.ajax.php on line 29
+[02-Jun-2018 19:41:00 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: ususarios in /home2/ammucom/public_html/backend/ajax/tablaUsuarios.ajax.php on line 29
+[02-Jun-2018 19:41:00 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: ususarios in /home2/ammucom/public_html/backend/ajax/tablaUsuarios.ajax.php on line 29
+[02-Jun-2018 19:41:00 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: ususarios in /home2/ammucom/public_html/backend/ajax/tablaUsuarios.ajax.php on line 29
+[04-Jun-2018 18:57:11 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[04-Jun-2018 18:57:11 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[04-Jun-2018 18:57:11 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[04-Jun-2018 18:57:11 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[04-Jun-2018 18:57:11 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[04-Jun-2018 18:57:11 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[04-Jun-2018 18:57:11 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[04-Jun-2018 18:57:11 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[04-Jun-2018 18:57:11 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[04-Jun-2018 18:57:11 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[04-Jun-2018 19:13:19 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[04-Jun-2018 19:13:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[04-Jun-2018 19:13:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[04-Jun-2018 19:13:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[04-Jun-2018 19:13:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[04-Jun-2018 19:13:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[04-Jun-2018 19:13:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[04-Jun-2018 19:13:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[04-Jun-2018 19:13:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[04-Jun-2018 19:13:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[04-Jun-2018 19:25:20 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[04-Jun-2018 19:25:20 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[04-Jun-2018 19:25:20 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[04-Jun-2018 19:25:20 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[04-Jun-2018 19:25:20 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[04-Jun-2018 19:25:20 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[04-Jun-2018 19:25:20 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[04-Jun-2018 19:25:20 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[04-Jun-2018 19:25:20 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[04-Jun-2018 19:25:20 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[04-Jun-2018 19:37:37 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[04-Jun-2018 19:37:37 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[04-Jun-2018 19:37:37 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[04-Jun-2018 19:37:37 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[04-Jun-2018 19:37:37 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[04-Jun-2018 19:37:37 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[04-Jun-2018 19:37:37 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[04-Jun-2018 19:37:37 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[04-Jun-2018 19:37:37 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[04-Jun-2018 19:37:37 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[04-Jun-2018 19:53:55 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[04-Jun-2018 19:53:55 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[04-Jun-2018 19:53:55 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[04-Jun-2018 19:53:55 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[04-Jun-2018 19:53:55 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[04-Jun-2018 19:53:55 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[04-Jun-2018 19:53:55 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[04-Jun-2018 19:53:55 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[04-Jun-2018 19:53:55 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[04-Jun-2018 19:53:55 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[04-Jun-2018 20:07:38 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[04-Jun-2018 20:07:38 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[04-Jun-2018 20:07:38 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[04-Jun-2018 20:07:38 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[04-Jun-2018 20:07:38 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[04-Jun-2018 20:07:38 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[04-Jun-2018 20:07:38 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[04-Jun-2018 20:07:38 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[04-Jun-2018 20:07:38 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[04-Jun-2018 20:07:38 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[04-Jun-2018 20:14:22 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[04-Jun-2018 20:14:22 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[04-Jun-2018 20:14:22 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[04-Jun-2018 20:14:22 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[04-Jun-2018 20:14:22 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[04-Jun-2018 20:14:22 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[04-Jun-2018 20:14:22 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[04-Jun-2018 20:14:22 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[04-Jun-2018 20:14:22 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[04-Jun-2018 20:14:22 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[06-Jun-2018 13:01:21 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[06-Jun-2018 13:01:21 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[06-Jun-2018 13:01:21 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[06-Jun-2018 13:01:21 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[06-Jun-2018 13:01:21 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[06-Jun-2018 13:01:21 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[06-Jun-2018 13:01:21 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[06-Jun-2018 13:01:21 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 38
+[06-Jun-2018 13:01:21 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 41
+[06-Jun-2018 13:01:21 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 0 in /home2/ammucom/public_html/backend/ajax/tablaVentas.ajax.php on line 43
+[10-Oct-2018 23:52:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home2/nutregac/public_html/backend/modelos/conexion.php:12
+Stack trace:
+#0 /home2/nutregac/public_html/backend/modelos/conexion.php(12): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home2/nutregac/public_html/backend/modelos/categorias.modelo.php(25): Conexion::conectar()
+#2 /home2/nutregac/public_html/backend/controladores/categorias.controlador.php(13): ModeloCategorias::mdlMostrarCategorias('categorias', NULL, NULL)
+#3 /home2/nutregac/public_html/backend/ajax/tablaCategorias.ajax.php(20): ControladorCategorias::ctrMostrarCategorias(NULL, NULL)
+#4 /home2/nutregac/public_html/backend/ajax/tablaCategorias.ajax.php(143): TablaCategorias->mostrarTabla()
+#5 {main}
+  thrown in /home2/nutregac/public_html/backend/modelos/conexion.php on line 12
+[12-Oct-2018 00:13:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home2/nutregac/public_html/backend/modelos/conexion.php:12
+Stack trace:
+#0 /home2/nutregac/public_html/backend/modelos/conexion.php(12): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home2/nutregac/public_html/backend/modelos/categorias.modelo.php(25): Conexion::conectar()
+#2 /home2/nutregac/public_html/backend/controladores/categorias.controlador.php(13): ModeloCategorias::mdlMostrarCategorias('categorias', NULL, NULL)
+#3 /home2/nutregac/public_html/backend/ajax/tablaCategorias.ajax.php(20): ControladorCategorias::ctrMostrarCategorias(NULL, NULL)
+#4 /home2/nutregac/public_html/backend/ajax/tablaCategorias.ajax.php(143): TablaCategorias->mostrarTabla()
+#5 {main}
+  thrown in /home2/nutregac/public_html/backend/modelos/conexion.php on line 12
+[12-Oct-2018 00:24:42 UTC] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically, assuming $this from incompatible context in /home2/nutregac/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[12-Oct-2018 16:58:48 UTC] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically, assuming $this from incompatible context in /home2/nutregac/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[12-Oct-2018 20:01:00 UTC] PHP Warning:  unlink(../vistas/img/plantilla/logo.jpg): No such file or directory in /home2/nutregac/public_html/backend/controladores/comercio.controlador.php on line 46
+[12-Oct-2018 20:07:15 UTC] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically, assuming $this from incompatible context in /home2/nutregac/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[12-Oct-2018 21:13:17 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error:  in /home2/nutregac/public_html/backend/controladores/comercio.controlador.php on line 57
+[12-Oct-2018 21:13:17 UTC] PHP Warning:  imagecreatefromjpeg(): '/tmp/phpvWMo04' is not a valid JPEG file in /home2/nutregac/public_html/backend/controladores/comercio.controlador.php on line 57
+[12-Oct-2018 21:13:17 UTC] PHP Warning:  imagecopyresized() expects parameter 2 to be resource, boolean given in /home2/nutregac/public_html/backend/controladores/comercio.controlador.php on line 59
+[13-Oct-2018 18:20:56 UTC] PHP Warning:  unlink(../vistas/img/slide/slide3/fondo2.jpg): No such file or directory in /home2/nutregac/public_html/backend/controladores/slide.controlador.php on line 77
+[13-Oct-2018 18:36:48 UTC] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically, assuming $this from incompatible context in /home2/nutregac/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[13-Oct-2018 18:41:44 UTC] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically, assuming $this from incompatible context in /home2/nutregac/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[14-Oct-2018 16:59:47 UTC] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically, assuming $this from incompatible context in /home2/nutregac/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[14-Oct-2018 22:42:36 UTC] PHP Fatal error:  Cannot redeclare paragrafizar() (previously declared in /home2/nutregac/public_html/backend/ajax/tablaProductos.ajax.php:113) in /home2/nutregac/public_html/backend/ajax/tablaProductos.ajax.php on line 113
+[14-Oct-2018 22:42:37 UTC] PHP Fatal error:  Cannot redeclare paragrafizar() (previously declared in /home2/nutregac/public_html/backend/ajax/tablaProductos.ajax.php:113) in /home2/nutregac/public_html/backend/ajax/tablaProductos.ajax.php on line 113
+[14-Oct-2018 22:51:20 UTC] PHP Fatal error:  Cannot redeclare paragrafizar() (previously declared in /home2/nutregac/public_html/backend/ajax/tablaProductos.ajax.php:113) in /home2/nutregac/public_html/backend/ajax/tablaProductos.ajax.php on line 113
+[14-Oct-2018 22:51:20 UTC] PHP Fatal error:  Cannot redeclare paragrafizar() (previously declared in /home2/nutregac/public_html/backend/ajax/tablaProductos.ajax.php:113) in /home2/nutregac/public_html/backend/ajax/tablaProductos.ajax.php on line 113
+[17-Oct-2018 19:44:35 UTC] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically, assuming $this from incompatible context in /home2/nutregac/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[18-Oct-2018 00:33:28 UTC] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically, assuming $this from incompatible context in /home2/nutregac/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[28-Oct-2018 22:34:45 UTC] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically, assuming $this from incompatible context in /home2/nutregac/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[15-Feb-2019 01:12:09 UTC] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically, assuming $this from incompatible context in /home2/nutregac/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[16-Feb-2019 17:32:13 UTC] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically, assuming $this from incompatible context in /home2/nutregac/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[16-Feb-2019 19:10:26 UTC] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically, assuming $this from incompatible context in /home2/nutregac/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[16-Feb-2019 19:39:46 UTC] PHP Parse error:  syntax error, unexpected '{' in /home2/nutregac/public_html/backend/ajax/tablaProductos.ajax.php on line 49
+[16-Feb-2019 19:39:57 UTC] PHP Parse error:  syntax error, unexpected '{' in /home2/nutregac/public_html/backend/ajax/tablaProductos.ajax.php on line 49
+[16-Feb-2019 19:40:00 UTC] PHP Parse error:  syntax error, unexpected '{' in /home2/nutregac/public_html/backend/ajax/tablaProductos.ajax.php on line 49
+[16-Feb-2019 19:40:00 UTC] PHP Parse error:  syntax error, unexpected '{' in /home2/nutregac/public_html/backend/ajax/tablaProductos.ajax.php on line 49
+[16-Feb-2019 19:40:13 UTC] PHP Parse error:  syntax error, unexpected '{' in /home2/nutregac/public_html/backend/ajax/tablaProductos.ajax.php on line 49
+[16-Feb-2019 19:40:13 UTC] PHP Parse error:  syntax error, unexpected '{' in /home2/nutregac/public_html/backend/ajax/tablaProductos.ajax.php on line 49
+[16-Feb-2019 19:40:53 UTC] PHP Parse error:  syntax error, unexpected '{' in /home2/nutregac/public_html/backend/ajax/tablaProductos.ajax.php on line 49
+[16-Feb-2019 19:40:53 UTC] PHP Parse error:  syntax error, unexpected '{' in /home2/nutregac/public_html/backend/ajax/tablaProductos.ajax.php on line 49
+[16-Feb-2019 19:40:58 UTC] PHP Parse error:  syntax error, unexpected '{' in /home2/nutregac/public_html/backend/ajax/tablaProductos.ajax.php on line 49
+[16-Feb-2019 19:40:58 UTC] PHP Parse error:  syntax error, unexpected '{' in /home2/nutregac/public_html/backend/ajax/tablaProductos.ajax.php on line 49
+[16-Feb-2019 19:44:04 UTC] PHP Parse error:  syntax error, unexpected '{' in /home2/nutregac/public_html/backend/ajax/tablaProductos.ajax.php on line 49
+[16-Feb-2019 19:44:04 UTC] PHP Parse error:  syntax error, unexpected '{' in /home2/nutregac/public_html/backend/ajax/tablaProductos.ajax.php on line 49
+[16-Feb-2019 19:44:29 UTC] PHP Parse error:  syntax error, unexpected '{' in /home2/nutregac/public_html/backend/ajax/tablaProductos.ajax.php on line 49
+[16-Feb-2019 19:44:29 UTC] PHP Parse error:  syntax error, unexpected '{' in /home2/nutregac/public_html/backend/ajax/tablaProductos.ajax.php on line 49
+[16-Feb-2019 19:45:52 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) in /home2/nutregac/public_html/backend/ajax/tablaProductos.ajax.php on line 310
+[16-Feb-2019 19:45:52 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) in /home2/nutregac/public_html/backend/ajax/tablaProductos.ajax.php on line 310
+[16-Feb-2019 19:46:23 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) in /home2/nutregac/public_html/backend/ajax/tablaProductos.ajax.php on line 310
+[16-Feb-2019 19:46:23 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) in /home2/nutregac/public_html/backend/ajax/tablaProductos.ajax.php on line 310
+[16-Feb-2019 19:47:12 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) in /home2/nutregac/public_html/backend/ajax/tablaProductos.ajax.php on line 310
+[16-Feb-2019 19:48:20 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) in /home2/nutregac/public_html/backend/ajax/tablaProductos.ajax.php on line 310
+[16-Feb-2019 19:55:05 UTC] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically, assuming $this from incompatible context in /home2/nutregac/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[17-Feb-2019 02:17:24 UTC] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically, assuming $this from incompatible context in /home2/nutregac/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[17-Feb-2019 02:24:22 UTC] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically, assuming $this from incompatible context in /home2/nutregac/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[12-Mar-2019 21:23:06 UTC] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically, assuming $this from incompatible context in /home2/nutregac/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[18-Mar-2019 21:00:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/nutregac/public_html/backend/controladores/productos.controlador.php on line 541
+[20-Apr-2019 00:45:51 UTC] PHP Warning:  unlink(../vistas/img/multimedia/top-nutrition-puppy-small-x-3kg/25.png): No such file or directory in /home2/nutregac/public_html/backend/controladores/productos.controlador.php on line 517
+[20-Apr-2019 00:45:51 UTC] PHP Warning:  unlink(../): Is a directory in /home2/nutregac/public_html/backend/controladores/productos.controlador.php on line 537
+[20-Apr-2019 00:45:51 UTC] PHP Warning:  unlink(../vistas/img/productos/top-nutrition-puppy-small-x-3kg.png): No such file or directory in /home2/nutregac/public_html/backend/controladores/productos.controlador.php on line 610
+[20-Apr-2019 00:47:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/nutregac/public_html/backend/controladores/productos.controlador.php on line 506
+[20-Apr-2019 00:47:20 UTC] PHP Warning:  unlink(../): Is a directory in /home2/nutregac/public_html/backend/controladores/productos.controlador.php on line 537
+[22-Apr-2019 22:32:04 UTC] PHP Warning:  unlink(../): Is a directory in /home2/nutregac/public_html/backend/controladores/productos.controlador.php on line 537
+[22-Apr-2019 22:32:04 UTC] PHP Warning:  unlink(../vistas/img/productos/top-nutrition-puppy-medim-breed-x-18kg.png): No such file or directory in /home2/nutregac/public_html/backend/controladores/productos.controlador.php on line 610
+[29-Apr-2019 17:16:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/nutregac/public_html/backend/controladores/productos.controlador.php on line 506
+[05-May-2019 14:33:17 UTC] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically, assuming $this from incompatible context in /home2/nutregac/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[16-May-2019 23:44:23 UTC] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically, assuming $this from incompatible context in /home2/nutregac/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[16-May-2019 23:58:18 UTC] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically, assuming $this from incompatible context in /home2/nutregac/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[17-May-2019 00:02:12 UTC] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically, assuming $this from incompatible context in /home2/nutregac/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[21-May-2019 15:31:53 UTC] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically, assuming $this from incompatible context in /home2/nutregac/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[17-Jun-2019 20:37:33 UTC] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically, assuming $this from incompatible context in /home2/nutregac/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[17-Jun-2019 21:44:42 UTC] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically, assuming $this from incompatible context in /home2/nutregac/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[20-Jun-2019 22:11:41 UTC] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically, assuming $this from incompatible context in /home2/nutregac/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[14-Jul-2019 23:12:14 UTC] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically, assuming $this from incompatible context in /home2/nutregac/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[14-Jul-2019 23:23:44 UTC] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically, assuming $this from incompatible context in /home2/nutregac/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[15-Jul-2019 00:01:13 UTC] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically, assuming $this from incompatible context in /home2/nutregac/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[15-Jul-2019 00:02:52 UTC] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically, assuming $this from incompatible context in /home2/nutregac/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[30-Jul-2019 21:19:39 UTC] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically, assuming $this from incompatible context in /home2/nutregac/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[30-Jul-2019 21:22:05 UTC] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically, assuming $this from incompatible context in /home2/nutregac/public_html/backend/ajax/tablaVentas.ajax.php on line 20
+[08-Aug-2019 21:34:07 UTC] PHP Deprecated:  Non-static method ControladorVentas::ctrMostrarVentas() should not be called statically, assuming $this from incompatible context in /home2/nutregac/public_html/backend/ajax/tablaVentas.ajax.php on line 20
