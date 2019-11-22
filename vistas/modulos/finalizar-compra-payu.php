@@ -13,7 +13,7 @@ if(isset($_POST["response_code_pol"]) && isset( $_GET['payu']) && $_GET['payu'] 
    $idUsuario = $_GET["idUsuario"];
 
    #Actualizamos la base de datos
-   for($i = 0; $i < count($productos); $i++){
+   for($i = 0; $i < count($productos); $i++) {
 
       $datos = array("idUsuario"=>$idUsuario,
                      "idProducto"=>$productos[$i],

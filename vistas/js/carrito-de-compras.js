@@ -1,33 +1,33 @@
 /*==========================================
 =            VISUALIZAR LOS PRODUCTOS EN LA PÁGINA DE CARRITO DE COMPRAS            =
 ==========================================*/
-if(localStorage.getItem("cantidadCesta") != null){
+if(localStorage.getItem("cantidadCesta") != null) {
 
-$(".cantidadCesta").html(localStorage.getItem("cantidadCesta"));
- $(".sumaCesta").html(localStorage.getItem("sumaCesta"));
+    $(".cantidadCesta").html(localStorage.getItem("cantidadCesta"));
+    $(".sumaCesta").html(localStorage.getItem("sumaCesta"));
 
 
-}else{
+} else{
 
-$(".cantidadCesta").html("0");
-$(".sumaCesta").html("0");
+    $(".cantidadCesta").html("0");
+    $(".sumaCesta").html("0");
 }
 
 
-if(localStorage.getItem("listaProductos") == null){
-var listaCarrito = [];
-$(".cuerpoCarrito").html('<div class="well">Aún no hay productos en el carrito</div>');
-$(".sumaCarrito").hide();
-$(".cabeceraCheckout").hide();
+if(localStorage.getItem("listaProductos") == null) {
+    var listaCarrito = [];
+    $(".cuerpoCarrito").html('<div class="well">Aún no hay productos en el carrito</div>');
+    $(".sumaCarrito").hide();
+    $(".cabeceraCheckout").hide();
 
-}else{
+} else {
  
 
  listaCarrito = JSON.parse(localStorage.getItem("listaProductos"));
 
  listaCarrito.forEach(functionForEach);
 
- function functionForEach(item, index){
+ function functionForEach(item, index) {
 
 
   $(".cuerpoCarrito").append('<div class="row itemCarrito">' + '<div class="col-sm-1 col-xs-12">' + '<br>' + '<center>' + '<button class="btn btn-default backColor quitarItemCarrito" idProducto="' + item.idProducto + '"  tipo="' + item.tipo + '" peso="' + item.peso + '" ">' + '<i class="fa fa-times"></i>' + '</button>' + '</center>' + '</div>' + '<div class="col-sm-1 col-xs-12">' + '<figure>' + '<img src="' + item.imagen + '" class="img-thumbnail">' + '</figure>' + '</div>' + '<div class="col-sm-4 col-xs-12">' + '<br>' + '<p class="tituloCarritoCompra text-left">' + item.titulo + '</p> <span class="label label-success fontSize enStock">En Stock</span>' + '</div>' + '<div class="col-md-2 col-sm-1 col-xs-12">' + '<br>' + '<p class="text-center precioCarritoCompra">ARS $ <span>' + item.precio + '</span></p>' + '</div>' + '<div class="col-md-2 col-sm-3 col-xs-8">' + '<br>' + '<div class="col-xs-8">' + '<center>' + '<input type="number" class="form-control cantidadItem" min="1" value="' + item.cantidad + '" tipo="' + item.tipo + '" precio="' + item.precio + '" idProducto="' + item.idProducto + '"  >' + '</center>' + '</div>' + '</div>' + '<div class="col-md-2 col-sm-1 col-xs-4">' + '<br>' + '<p class="subTotal' + item.idProducto + ' subtotales">' + '<strong>ARS $ <span>' + item.precio + '</span></strong>' + '</p>' + '</div>' + '</div>' + '<div class="clearfix"></div>' + '<hr>');
@@ -82,13 +82,22 @@ $(".cabeceraCheckout").hide();
 
 }
 
+/*==================================================
+=            Validar producto existente            =
+==================================================*/
+
+
+
+/*=====  End of Validar producto existente  ======*/
+
+
 
 /*==========================================
 =            AGREGAR AL CARRITO            =
 ==========================================*/
 
 $(".agregarCarrito").click(function() {
-	console.log('me ejecuto');
+
 	var idProducto = $(this).attr("idProducto");
 	var imagen = $(this).attr("imagen");
 	var titulo = $(this).attr("titulo");
@@ -111,10 +120,25 @@ $(".agregarCarrito").click(function() {
 
 			listaCarrito = [];
 
-		}else{
+		} else {
 
+            var listaProductos = JSON.parse(localStorage.getItem('listaProductos'));
+            for (var i = 0; i < listaProductos.length; i++) {
+                if (listaProductos[i]['idProducto'] == idProducto) {
+                    swal({
+                          title: "",
+                          text: "El producto ya está agregado al carrito de compras",
+                          type: "warning",
+                          showCancelButton: false,
+                          confirmButtonColor: "#DD6B55",
+                          confirmButtonText: "Volver",
+                          closeOnConfirm: false
+                        });
+
+                    return;
+                }
+            }
 			listaCarrito.concat(localStorage.getItem("listaProductos"));
-
 		}
 
 		listaCarrito.push({"idProducto":idProducto,
@@ -126,6 +150,7 @@ $(".agregarCarrito").click(function() {
 				           "cantidad":"1"});
 
 		localStorage.setItem("listaProductos", JSON.stringify(listaCarrito));
+        console.log(localStorage.getItem("listaProductos"));
         
 		/*=============================================
 		ACTUALIZAR LA CESTA
@@ -848,37 +873,182 @@ $(".btnPagar").click(function() {
     datos.append("idProductoArray", idProductoArray);
 
     if (metodoPago == 'payu') {
-        console.log('vas a pagar con payu');
         pagarConPayu();
 
     } else if (metodoPago == 'pagoEnCasa') {
-        //pagarEncasa(datos);
         $('#modalCheckout').modal('hide');
-        $('#dataPagoEnCasaModal').modal({
-            show: true
-        });
-
+        setTimeout(function(){ $('#dataPagoEnCasaModal').modal('show'); }, 500);
     }
 
 });
 
+function message(msg, type) {
+    $('.alert-danger').remove();
+    $('.divPagarEnCasaAlerts').append('<div class="alert alert-danger" role="alert">Todos los datos * son requeridos.</div>');
+}
+
 /*=====  End of PAGAR  ======*/
 
-function pagarEnCasa(datos) {
-    if(datos) {
-        datos.append('metodoPago', 'pagoEnCasa');
-        $.ajax({
-            url:rutaOculta+"ajax/carrito.ajax.php",
-            method:"POST",
-            data: datos,
-            cache: false,
-            contentType: false,
-            processData: false,
-            success:function(respuesta){
+$('#btnPagarEnCasa').click(function(){
+    var datosCasa = {},
+        calle = $('#callePEC').val(),
+        numeroPEC = $('#numeroPEC').val(),
+        barrioPEC = $('#barrioPEC').val(),
+        paisPEC = 'Argentina',
+        ciudadPEC = 'Córdoba',
+        codigoPostalPEC = $('#codigoPostalPEC').val(),
+        emailPEC = $('#emailPEC').val(),
+        celularPEC = $('#celularPEC').val();
 
-            }
-        });
+    if (calle === '') {
+        message('Campo Calle requerido', 'err');
+        return;
     }
+
+    if (numeroPEC === '') {
+        message('Campo Número requerido', 'err');
+        return;
+    }
+
+    if (barrioPEC === '') {
+        message('Campo Barrio requerido', 'err');
+        return;
+    }
+
+    if (paisPEC === '') {
+        message('Campo País requerido', 'err');
+        return;
+    }
+
+    if (ciudadPEC === '') {
+        message('Campo Ciudad requerido', 'err');
+        return;
+    }
+
+    if (codigoPostalPEC === '') {
+        message('Campo Código Postal requerido', 'err');
+        return;
+    }
+
+    if (emailPEC === '') {
+        message('Campo E-mail requerido', 'err');
+        return;
+    }
+
+    if (celularPEC === '') {
+        message('Campo Celular requerido', 'err');
+        return;
+    }
+
+    datosCasa['calle'] = calle;
+    datosCasa['numeroPEC'] = numeroPEC;
+    datosCasa['barrioPEC'] = barrioPEC;
+    datosCasa['paisPEC'] = paisPEC;
+    datosCasa['ciudadPEC'] = ciudadPEC;
+    datosCasa['codigoPostalPEC'] = codigoPostalPEC;
+    datosCasa['emailPEC'] = emailPEC;
+    datosCasa['celularPEC'] = celularPEC;
+
+    pagarEnCasa(datosCasa);
+});
+
+function pagarEnCasa(datosCasa) {
+    $('.alert-danger').remove();
+
+    var tipo = $(this).attr("tipo");
+
+    if(tipo === "fisico") {
+        $(".btnPagar").after('<div class="alert alert-warning">No ah seleccionado el país de envío</div>');
+        return;
+    }
+
+
+    var divisa = $("#cambiarDivisa").val();
+    var total = $(".valorTotalCompra").html();
+    var impuesto = $(".valorTotalImpuesto").html();
+    var envio = $(".valorTotalEnvio").html();
+    var subtotal = Number($(".valorSubTotal").html());
+    var titulo = $(".valorTitulo");
+    var cantidad = $(".valorCantidad");
+    var valorItem = $(".valorItem");
+    var idProducto = $(".cuerpoCarrito button , .comprarAhora button");
+    var idUsuario = $("#idUsuario2").val();
+
+    var tituloArray = [];
+    var cantidadArray = [];
+    var valorItemArray = [];
+    var idProductoArray = [];
+
+    for (var i = 0; i < titulo.length; i++) {
+
+         tituloArray[i] = $(titulo[i]).html();
+
+         cantidadArray[i] = $(cantidad[i]).html();
+
+         valorItemArray[i] = $(valorItem[i]).html();
+
+         idProductoArray[i] = $(idProducto[i]).attr("idProducto");
+
+        
+    }
+
+    var descriptionToString = tituloArray.toString();
+    var cantidadToString = cantidadArray.toString();
+    var productosToString = idProductoArray.toString();
+    var productos = productosToString.replace(/,/g, "-");
+
+    var datos = new FormData();
+
+    // Información del envío
+    datos.append("divisa" , divisa);
+    datos.append("total",total);
+    datos.append("impuesto", impuesto);
+    datos.append("envio",envio);
+    datos.append("subtotal", subtotal);
+    datos.append("tituloArray", descriptionToString);
+    datos.append("cantidadArray",cantidadToString);
+    datos.append("valorItemArray", valorItemArray);
+    datos.append("idProductoArray", productos);
+    datos.append("idUsuario", idUsuario);
+
+    // Informacion del envío
+    datos.append('calle', datosCasa.calle);
+    datos.append('numeroPEC', datosCasa.numeroPEC);
+    datos.append('barrioPEC', datosCasa.barrioPEC);
+    datos.append('paisPEC', datosCasa.paisPEC);
+    datos.append('ciudadPEC', datosCasa.ciudadPEC);
+    datos.append('codigoPostalPEC', datosCasa.codigoPostalPEC);
+    datos.append('emailPEC', datosCasa.emailPEC);
+    datos.append('celularPEC', datosCasa.celularPEC);
+    datos.append('metodoPagoCasa', 'pago en casa');
+
+    $.ajax({
+        url:rutaOculta+"ajax/carrito.ajax.php",
+        method:"POST",
+        data: datos,
+        cache: false,
+        contentType: false,
+        processData: false,
+        success:function(respuesta){
+            
+            if (respuesta) {
+                localStorage.removeItem("listaProductos");
+                localStorage.removeItem("sumaCesta");
+                localStorage.removeItem("cantidadCesta");
+                window.location = rutaOculta+ 'index.php?ruta=perfil&success=pago-en-casa'
+            } else {
+                swal({
+                    title: "Algo salió mal, por favor vuelve a intentar o llamanos al 3516718745 ",
+                    text: "",
+                    type: "error",
+                    showCancelButton: false,
+                    confirmButtonColor: "#DD6B55",
+                    confirmButtonText: "Regresar",
+                    closeOnConfirm: true
+                });
+            }
+        }
+    });
 }
 
 /*======================================
@@ -973,22 +1143,6 @@ function pagarConPayu() {
 
       	 var tipoEnvio = "YES";
 
-      	  console.log('merchantId' , merchantId);
-      	  console.log('accountId', accountId);
-      	  console.log('descriptionToString', descriptionToString);
-      	  console.log('referenceCode', referenceCode);
-      	  console.log('total', total);
-      	  console.log('impuesto', impuesto);
-      	  console.log('taxReturnBase', taxReturnBase);
-      	  console.log('envio',envio);
-      	  console.log('divisa', divisa);
-      	  console.log('confirmation url', rutaOculta+"index.php?ruta=finalizar-compra-payu&payu=true&idUsuario="+idUsuario+"&productos="+productos+"&cantidad="+cantidad+"&pago="+total+"&description="+description);
-      	  console.log('responseUrl',rutaOculta+"index.php?ruta=perfil" );
-      	  console.log('declinedResponseUrl', rutaOculta+"index.php?ruta=carrito-de-compras");
-      	  console.log('displayShippingInformation', tipoEnvio);
-      	  console.log('test', test);
-      	  console.log('signature', signature);
-
            $(".formPayu").attr("method","POST");
            $(".formPayu").attr("action",url);
 		   $(".formPayu input[name='merchantId']").attr("value", merchantId);
@@ -1039,7 +1193,6 @@ $(".agregarGratis").click(function(){
 ====================================================================*/
 
 	var datos = new FormData();
-
 	datos.append("idProducto", idProducto);
 	datos.append("idUsuario", idUsuario);
 	datos.append("tipo", tipo);
@@ -1055,7 +1208,6 @@ $(".agregarGratis").click(function(){
 	    success:function(respuesta) {
 
 
-			console.log("respuesta",respuesta);
 			if(respuesta != false) {
 
 	     		swal({

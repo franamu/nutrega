@@ -2,7 +2,7 @@
 
 require_once "conexion.php";
 
-class ModeloUsuarios{
+class ModeloUsuarios {
 
 
    	/*=========================================================================

@@ -269,7 +269,6 @@ class ControladorUsuarios{
 								$_SESSION["email"] = $respuesta["email"];
 								$_SESSION["password"] = $respuesta["password"];
 								$_SESSION["modo"] = $respuesta["modo"];
-
 								echo '<script>
 									
 									window.location = localStorage.getItem("rutaActual");

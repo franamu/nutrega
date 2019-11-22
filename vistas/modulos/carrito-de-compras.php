@@ -173,7 +173,7 @@ $url = Ruta::ctrRuta();
                   <center>
                     <input type="radio" id="checkPayu"  name="pago" value="payu" checked>
                   </center>
-                    <img src="'.$url.'vistas/img/plantilla/pago-PayU.png" class="img-thumbnail">
+                    <img src="'.$url.'vistas/img/plantilla/pago-PayU.jpeg" class="img-thumbnail">
                   
                 </figure>';
 
@@ -184,7 +184,7 @@ $url = Ruta::ctrRuta();
                   <center>
                     <input type="radio" id="checkPagoCasa"  name="pago" value="pagoEnCasa" >
                   </center>
-                    <img src="'.$url.'vistas/img/plantilla/pagoContraEntrega.jpg" class="img-thumbnail">
+                    <img src="'.$url.'vistas/img/plantilla/pagoContraEntrega.jpeg" class="img-thumbnail">
                   
                 </figure>';
               }
@@ -305,63 +305,72 @@ $url = Ruta::ctrRuta();
 <!--====  Datos Pago en casa ====-->
 <div class="modal fade modalFormulario" id="dataPagoEnCasaModal" role="dialog">
 
-    <div class="modal-content modal-dialog">
+  <div class="modal-content modal-dialog">
 
-        <div class="modal-body modalTitulo">
+    <div class="modal-body modalTitulo">
 
-          <h3 class="backColor">Información de Envío</h3>
+      <h3 class="backColor">Información de Envío</h3>
 
-           <button type="button" class="close" data-dismiss="modal">&times;</button>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
             
-            <div class="contenidoCheckout">
+      <div class="contenidoCheckout">
 
-                <div class="form-group">
-                  <div class="input-group">
-                
-                    <span class="input-group-addon">
-                      
-                      <i class="glyphicon glyphicon glyphicon-home"></i>
-                    
-                    </span>
+        <div class="form-group">
+          <div class="input-group">
+        
+            <span class="input-group-addon">
+              
+              <i class="glyphicon glyphicon glyphicon-home"></i>
+            
+            </span>
 
-                    <input type="text" class="form-control input-xs" id="callePEC" name="calle" placeholder="Calle" required>
-                    <input type="text" class="form-control input-xs" id="numeroPEC" name="numero" placeholder="Número" required>
-                    <input type="text" class="form-control input-xs" id="barrioPEC" name="barrio" placeholder="Barrio" required>
-                  </div>
-                </div>
-
-                <div class="form-group">
-                  <div class="input-group">
-                      <span class="input-group-addon">
-                      
-                      <i class="glyphicon glyphicon glyphicon glyphicon-map-marker"></i>
-                      
-                    </span>
-                    <input type="text" class="form-control input-xs" id="paisPEC" name="pais" placeholder="Argentina" disabled>
-                    <input type="text" class="form-control input-xs" id="ciudadPEC" name="ciudad" placeholder="Ciudad" required>
-                    <input type="text" class="form-control input-xs" id="codigoPostalPEC" name="codigoPostalPEC" placeholder="Código Postal" required>
-                  </div>
-                </div>
-
-                <div class="form-group">
-                  <div class="input-group">
-                
-                    <span class="input-group-addon">
-                      
-                      <i class="glyphicon glyphicon glyphicon glyphicon-user"></i>
-                    
-                    </span>
-
-                    <input type="email" class="form-control input-xs" id="emailPEC" name="email" placeholder="Email" required>
-                    <input type="text" class="form-control input-xs" id="celularPEC" name="phone" placeholder="Celular" required>
-                  </div>
-                </div>
-              <button class="btn btn-block btn-lg btn-default backColor btnPagar">Enviar Mi Pedido</button>
-            </div>
+            <input type="text" class="form-control input-xs" id="callePEC" name="calle" placeholder="Calle*" required>
+            <input type="text" class="form-control input-xs" id="numeroPEC" name="numero" placeholder="Número*" required>
+            <input type="text" class="form-control input-xs" id="barrioPEC" name="barrio" placeholder="Barrio*" required>
+          </div>
         </div>
-      
-    </div>
 
+        <div class="form-group">
+          <div class="input-group">
+              <span class="input-group-addon">
+              
+              <i class="glyphicon glyphicon glyphicon glyphicon-map-marker"></i>
+              
+            </span>
+            <input type="text" class="form-control input-xs" id="paisPEC" name="pais" placeholder="Argentina" disabled>
+            <input type="text" class="form-control input-xs" id="ciudadPEC" name="ciudad" placeholder="Córdoba Capital" disabled>
+            <input type="text" class="form-control input-xs" id="codigoPostalPEC" name="codigoPostalPEC" placeholder="Código Postal*" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="input-group">
+        
+            <span class="input-group-addon">
+              
+              <i class="glyphicon glyphicon glyphicon glyphicon-user"></i>
+            
+            </span>
+
+            <input type="email" class="form-control input-xs" id="emailPEC" name="email" placeholder="Email*" required>
+            <input type="text" class="form-control input-xs" id="celularPEC" name="phone" placeholder="Celular*" required>
+          </div>
+        </div>
+
+        <div class="divPagarEnCasaAlerts">
+          <div class="alert alert-warning" role="alert">
+            Los pedídos solo se entregan en Córdoba Capital.<br>
+            El tiempo de demora es entre 2 a 5 días hábiles. <br>
+            Para tener más información sobre entregas por favor comunícate al 3516718745 o 03543660390.
+          </div>
+          <div class="alert alert-success" role="alert">
+            El costo de envío dentro de Córdoba capital es de $0.
+          </div>
+        </div>
+          <button class="btn btn-block btn-lg btn-default backColor" id="btnPagarEnCasa">Enviar mi pedido</button>
+      </div>
+    </div>     
+  </div>
 </div>
 
 <!--====  End Datos Pago en casa  ====-->

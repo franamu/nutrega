@@ -20,7 +20,7 @@ class ControladorCarrito{
 	NUEVAS COMPRAS
 	=============================================*/
 
-	static public function ctrNuevasCompras($datos){
+	static public function ctrNuevasCompras($datos) {
 
 		$tabla = "compras";
 
@@ -58,7 +58,7 @@ class ControladorCarrito{
 
 		$respuesta = ModeloCarrito::mdlVerificarProducto($tabla, $datos);
 	 
-	    return $respuesta;
+    return $respuesta;
 
 		
 	}
