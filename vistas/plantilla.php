@@ -164,7 +164,7 @@ session_start();
 
   <script src="https://apis.google.com/js/platform.js" async defer></script>
   
- <script src='https://www.google.com/recaptcha/api.js'></script>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
 
   <!--=====================================
   Pixel de Facebook
