@@ -39,12 +39,11 @@ class TablaVentas{
 		$fecha = $ventas[$i]["fecha"];
 
 		$traerProducto = ControladorProductos::ctrMostrarProductos($item, $valor);
-
 		$producto = $ventas[$i]["description"];
 		$imgProducto = "";
 		$tipo = "";
-		
-		if(!isset($traerProducto)) {
+
+		if($traerProducto) {
 			$imgProducto = "<img class='img-thumbnail' src='".$traerProducto[0]["portada"]."' width='100px'>";
 			$tipo = $traerProducto[0]["tipo"];
 		}

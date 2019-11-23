@@ -875,7 +875,7 @@ MODAL EDITAR PRODUCTO
             </div> 
 
            <!--=====================================
-            AGREGAR CATEGORÍA
+            EDITAR CATEGORÍA
             ======================================-->
 
             <div class="form-group">
@@ -886,7 +886,7 @@ MODAL EDITAR PRODUCTO
 
                   <select class="form-control input-lg seleccionarCategoria">
                   
-                    <option class="optionEditarCategoria"></option>
+                    <option class="optionEditarCategoria" value=""></option>
 
                     <?php
 

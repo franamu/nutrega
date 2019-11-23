@@ -234,7 +234,7 @@ $(".seleccionarCategoria").change(function(){
 	datos.append("idCategoria", categoria);
 
 	 $.ajax({
-	    url:"ajax/subCategorias.ajax.php",
+	    url:"ajax/subcategorias.ajax.php",
 	    method:"POST",
 	    data: datos,
 	    cache: false,
@@ -905,7 +905,9 @@ $('.tablaProductos tbody').on("click", ".btnEditarProducto", function(){
 
 							$("#modalEditarProducto .seleccionarCategoria").val(respuesta["id"]);
 							$("#modalEditarProducto .optionEditarCategoria").html(respuesta["categoria"]);
-
+							$("#modalEditarProducto .optionEditarCategoria").attr("value", respuesta["id"]);
+							let categoriaEliminado = $("#modalEditarProducto .seleccionarCategoria option[value="+respuesta["id"]+"]");
+							categoriaEliminado[1].remove();
 							
 						}
 
@@ -940,7 +942,7 @@ $('.tablaProductos tbody').on("click", ".btnEditarProducto", function(){
 
 							$("#modalEditarProducto .optionEditarSubCategoria").val(respuesta[0]["id"]);
 							$("#modalEditarProducto .optionEditarSubCategoria").html(respuesta[0]["subcategoria"]);
-
+							var subcategoria = respuesta[0]["subcategoria"];
 							var datosCategoria = new FormData();
 							datosCategoria.append("idCategoria", respuesta[0]["id_categoria"]);	
 
@@ -959,11 +961,13 @@ $('.tablaProductos tbody').on("click", ".btnEditarProducto", function(){
 
 							        function funcionForEach(item, index){
 
-						    			$("#modalEditarProducto .seleccionarSubCategoria").append(
+										if(item["subcategoria"] !== subcategoria) {
+											$("#modalEditarProducto .seleccionarSubCategoria").append(
 
-						    				'<option value="'+item["id"]+'">'+item["subcategoria"]+'</option>'
+											'<option value="'+item["id"]+'">'+item["subcategoria"]+'</option>'
 
-						    			)
+											)
+										}
 
 						    		}
 
