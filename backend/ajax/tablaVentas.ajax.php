@@ -32,6 +32,11 @@ class TablaVentas{
 		$item = "id";
 		$valor = $ventas[$i]["id_producto"];
 		$cantidad = $ventas[$i]["cantidad"];
+		$direccion = $ventas[$i]["direccion"];
+		$pais = $ventas[$i]["pais"];
+		$ciudad = $ventas[$i]["ciudad"];
+		$telefono = $ventas[$i]["telefono"];
+		$fecha = $ventas[$i]["fecha"];
 
 		$traerProducto = ControladorProductos::ctrMostrarProductos($item, $valor);
 
@@ -139,7 +144,12 @@ class TablaVentas{
 			      		"'.$tipo.'",
 			      		"'.$envio.'",
 			      		"'.$metodo.'",	
-			      		"'.$email.'"
+						"'.$email.'",
+						"'.$direccion.'",
+						"'.$pais.'",
+						"'.$ciudad.'",
+						"'.$telefono.'",
+						"'.$fecha.'"
 			      		],';
 
 	} 
