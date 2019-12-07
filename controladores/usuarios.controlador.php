@@ -56,9 +56,9 @@ class ControladorUsuarios{
 
 					$mail->isMail();
 
-					$mail->setFrom('ammu@ammu.com.ar', 'Ammu E-commmerce');
+					$mail->setFrom('nutrega@nutrega.com.ar', 'Nutrega');
 
-					$mail->addReplyTo('ammu@ammu.com.ar', 'Ammu E-commmerce');
+					$mail->addReplyTo('nutrega@nutrega.com.ar', 'Nutrega');
 
 					$mail->Subject = "Por favor verifique su dirección de correo electrónico";
 
@@ -68,7 +68,7 @@ class ControladorUsuarios{
 						
 						<center>
 							
-							<img style="padding:20px; width:10%" src="http://ammu.com.ar/fotos/logo/ammuLogo2.png">
+							<img style="padding:20px; width:10%" src="https://backend.nutrega.com.ar/vistas/img/plantilla/logo.png">
 
 						</center>
 
@@ -226,7 +226,7 @@ class ControladorUsuarios{
 
 				if($respuesta["email"] == $_POST["ingEmail"] && $respuesta["password"] == $encriptar){
 
-					if($respuesta["verificacion"] == 1){
+					if($respuesta["verificacion"] == 1) {
 
 						echo'<script>
 
@@ -246,11 +246,11 @@ class ControladorUsuarios{
 
 							</script>';
 
-					}else{
+					} else {
 
-						//if(isset($_POST["g-recaptcha-response"])){
+						if(isset($_POST["g-recaptcha-response"])){
 	
-							/*$secret = "6LfwX1gUAAAAAOF1aiE8Poe3VTU-UgwrLLlxmLHY";
+							$secret = "6Lfd8cUUAAAAANBRBowyQNlBBvKqiBWPAfxaJlf5";
 
 							$response = $_POST["g-recaptcha-response"];
 
@@ -260,7 +260,7 @@ class ControladorUsuarios{
 
 							$array = json_decode($result,TRUE);
 
-							if($array["success"]){*/
+							if($array["success"]){
 	                         
 								$_SESSION["validarSesion"] = "ok";
 								$_SESSION["id"] = $respuesta["id"];
@@ -275,32 +275,32 @@ class ControladorUsuarios{
 
 								</script>';
 
-							/*}*/
-
-						//}else{
+							} else {
 						
-							/*echo'<script>
+								echo'<script>
 
-							swal({
-								  title: "¡ERROR AL INGRESAR!",
-								  text: "¡Debe demostrar que no es un Robot!",
-								  type: "error",
-								  confirmButtonText: "Cerrar",
-								  closeOnConfirm: false
-							},
+								swal({
+									  title: "¡ERROR AL INGRESAR!",
+									  text: "¡Debe demostrar que no es un Robot!",
+									  type: "error",
+									  confirmButtonText: "Cerrar",
+									  closeOnConfirm: false
+								},
 
-							function(isConfirm){
-									 if (isConfirm) {	   
-									    window.location = localStorage.getItem("rutaActual");
-									  } 
-							});
+								function(isConfirm){
+										 if (isConfirm) {	   
+										    window.location = localStorage.getItem("rutaActual");
+										  } 
+								});
 
-							</script>';*/
-						//}
+								</script>';
+							}
+
+						}
 
 					}
 
-				}else{
+				} else {
 
 					echo'<script>
 
@@ -415,9 +415,9 @@ class ControladorUsuarios{
 
 						$mail->isMail();
 
-						$mail->setFrom('ammu@ammu.com.ar', 'Ammu E-commmerce');
+						$mail->setFrom('nutrega@nutrega.com.ar', 'Nutrega');
 
-						$mail->addReplyTo('ammu@ammu.com.ar', 'Ammu E-commmerce');
+						$mail->addReplyTo('nutrega@nutrega.com.ar', 'Nutrega');
 
 						$mail->Subject = "Solicitud de nueva contraseña";
 
@@ -427,7 +427,7 @@ class ControladorUsuarios{
 	
 								<center>
 									
-									<img style="padding:20px; width:10%" src="http://ammu.com.ar/fotos/logo/ammuLogo2.png">
+									<img style="padding:20px; width:10%" src="https://backend.nutrega.com.ar/vistas/img/plantilla/logo.png">
 
 								</center>
 
@@ -1067,7 +1067,7 @@ return $respuesta;
 
 						<div style="width:100%; background:#eee; position:relative; font-family:sans-serif; padding-bottom:40px">
 
-						<center><img style="padding:20px; width:10%" src="http://ammu.com.ar/fotos/logo/ammuLogo2.png"></center>
+						<center><img style="padding:20px; width:10%" src="https://backend.nutrega.com.ar/vistas/img/plantilla/logo.png"></center>
 
 						<div style="position:relative; margin:auto; width:600px; background:white; padding-bottom:20px">
 

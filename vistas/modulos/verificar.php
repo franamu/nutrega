@@ -38,7 +38,7 @@ if($valor == $respuesta["emailEncriptado"]){
               	echo '<h3>Gracias</h3>
                       <h2><small>Hemos verificado su correo electrónico, ya puede ingresar al sistema</small></h2>
                       <br>
-                      <a href="#modalIngreso"><button class="btn btn-default backColor btn-lg">Ingresar </button></a>
+                      <a href="#modalIngreso" data-toggle="modal"><button class="btn btn-default backColor btn-lg">Ingresar </button></a>
 
               	';
 
@@ -47,7 +47,7 @@ if($valor == $respuesta["emailEncriptado"]){
                  echo '<h3>Error</h3>
                       <h2><small>No se ah podido verificar el correo electrónico, vuelva a registrarse</small></h2>
                       <br>
-                      <a href="#modalIngreso"><button class="btn btn-default backColor btn-lg">Registro</button></a>
+                      <a href="#modalRegistro" data-dismiss="modal"><button class="btn btn-default backColor btn-lg">Registro</button></a>
 
               	';
                 

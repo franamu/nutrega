@@ -606,7 +606,7 @@ VENTANA MODAL PARA EL INGRESO
 
 				</div>
 
-			<div class="g-recaptcha" data-sitekey="6LfwX1gUAAAAAEO85aHkO2E24BnlUwxmMe_eQTwg"></div>
+			<div class="g-recaptcha" data-sitekey="6Lfd8cUUAAAAAHjIv1gNCJG0Mw0ruug-mUV8xGlT"></div>
 
 				<?php
 
